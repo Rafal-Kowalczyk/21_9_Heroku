@@ -91,7 +91,7 @@ const findSpecificRecord = function() {
     })
 }
 
-const updadeUserPassword = function() {
+const updateUserPassword = function() {
     // update user password
     return User.findOne({ username: 'Kenny_the_boy' })
         .then(function(user) {
