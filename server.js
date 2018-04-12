@@ -149,7 +149,7 @@ const findBennyAndRemove = function() {
 Promise.all([kenny.save(), mark.save(), benny.save()])
     .then(findAllUsers)
     .then(findSpecificRecord)
-    .then(updadeUserPassword)
+    .then(updateUserPassword)
     .then(updateUsername)
     .then(findMarkAndDelete)
     .then(findKennyAndDelete)
