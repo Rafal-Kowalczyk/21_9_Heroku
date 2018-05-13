@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://admin:admin@ds139122.mlab.com:39122/mongodb2', {
     useMongoClient: true
 });
-//
+//wyswietlanie aplikacji na stronie
 const PORT = process.env.PORT || 5000
  
 const express = require('express')
